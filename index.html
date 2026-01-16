@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Happy Birthdayyy 🎂</title>
+  <title>Happy Birthday 🎂</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Normalize -->
@@ -13,13 +13,14 @@
 </head>
 <body>
 
-  <h1 class="title">Happy Birthdayyy 🎂</h1>
-  <p class="subtitle">Make a wish and blow the candles</p>
+  <h1 class="title">Happy Birthday 🎂</h1>
+  <p class="subtitle">Click on the cake to add candles, then blow them out!</p>
 
   <div class="candle-count-display">
     Candles on the Cake: <span id="candleCount">0</span>
   </div>
 
+  <!-- Cake -->
   <div class="cake">
     <div class="plate"></div>
     <div class="layer layer-bottom"></div>
@@ -31,14 +32,24 @@
     <div class="drip drip3"></div>
   </div>
 
-  <div class="letter" id="letter">
-    <h2>For U </h2>
+  <!-- Hidden Photos -->
+  <div id="photos" style="display:none">
+    <img src="photo1.jpg" alt="Photo 1">
+    <img src="photo2.jpg" alt="Photo 2">
+    <img src="photo3.jpg" alt="Photo 3">
+  </div>
+
+  <!-- Hidden Letter -->
+  <div class="letter" id="letter" style="display:none">
+    <h2>For u 💖</h2>
     <p>
-      Happy birthday.  
-      This page is simple, but it’s made for u.
+      Happy birthday.<br><br>
+      This page isn’t perfect, but it’s made just for you.
+      I hope today reminds you how special you are.
     </p>
   </div>
 
+  <!-- JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
